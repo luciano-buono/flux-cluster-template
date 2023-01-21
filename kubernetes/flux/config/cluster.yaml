@@ -8,9 +8,7 @@ spec:
   interval: 30m
   ref:
     branch: main
-  secretRef:
-    name: github-deploy-key
-  url: "ssh://git@github.com/luciano-buono/flux-cluster-template"
+  url: "https://github.com/luciano-buono/flux-cluster-template"
   ignore: |
     # exclude all
     /*
