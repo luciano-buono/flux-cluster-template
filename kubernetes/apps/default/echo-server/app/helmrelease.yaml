@@ -64,7 +64,7 @@ spec:
             paths:
               - path: /
                 pathType: Prefix
-          - host: "echo-server.orange2.local"
+          - host: "{{ .Release.Name }}.orange2.local"
             paths:
               - path: /
                 pathType: Prefix
