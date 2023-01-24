@@ -41,7 +41,7 @@ spec:
           paths:
             - path: /
               pathType: Prefix
-        - host: "{{ .Release.Name }}.orange2.local"
+        - host: "gitops.orange2.local"
           paths:
             - path: /
               pathType: Prefix
