@@ -44,14 +44,14 @@ spec:
         client-body-timeout: 120
         custom-http-errors: 400,401,403,404,500,502,503,504
         enable-brotli: "true"
-        # forwarded-for-header: "CF-Connecting-IP"
-        compute-full-forwarded-for: "true"
         hsts-max-age: "31449600"
         keep-alive: 120
         keep-alive-requests: 10000
         proxy-body-size: "100M"
         ssl-protocols: "TLSv1.3 TLSv1.2"
 
+        forwarded-for-header: "CF-Connecting-IP"
+        compute-full-forwarded-for: "true"
         # use-proxy-protocol: "true"
         # use-forwarded-headers: "true"
 
