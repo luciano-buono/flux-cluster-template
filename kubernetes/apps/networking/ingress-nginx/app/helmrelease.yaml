@@ -52,7 +52,7 @@ spec:
 
         #This decides which header will be used for identifying the client (Using CF-Connecting-IP)
         forwarded-for-header: "CF-Connecting-IP"
-        compute-full-forwarded-for: "true"
+        # compute-full-forwarded-for: "true"
         # use-proxy-protocol: "true"
         # use-forwarded-headers: "true"
 
